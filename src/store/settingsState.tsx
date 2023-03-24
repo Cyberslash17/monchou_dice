@@ -23,7 +23,7 @@ const i18nEffect = ({ onSet }: any) => {
 
 export const colorModeAtom = atom<'light' | 'dark'>({
   key: 'colorMode',
-  default: 'light',
+  default: 'dark',
   effects: [
     localStorageEffect('color_mode')
   ]
@@ -45,9 +45,9 @@ export const maxPlayersAtom = atom({
   ]
 });
 
-export const langAtom = atom<'en-US' | 'fr-FR'>({
+export const langAtom = atom<'en' | 'fr'>({
   key: 'lang',
-  default: 'en-US',
+  default: 'en',
   effects: [
     localStorageEffect('lang'),
     i18nEffect
