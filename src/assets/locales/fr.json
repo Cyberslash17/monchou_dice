@@ -1,0 +1,23 @@
+{
+    "game_title": "Partie",
+    "history_title": "Historique",
+    "settings_title": "Paramètres",
+    "player": "Joueurs",
+    "round1": "1re Ronde",
+    "round2": "2e Ronde",
+    "total": "Total",
+    "winning_one": "Le Grand gagnant est {{name}} avec {{count}} point",
+    "winning_others": "Le Grand gagnant est {{name}} avec {{count}} points",
+    "reset_game": "Réinitialiser partie",
+    "finish_game": "Finaliser partie",
+    "max_player_setting": "Nombre maximal de joueurs",
+    "dark_mode_setting": "Mode Nuit",
+    "language_setting": "Langue",
+    "id_history": "Id",
+    "player_history": "Joueur",
+    "score_history": "Score",
+    "date_history": "Date",
+    "start_game": "Commencer partie",
+    "add_button": "Ajouter",
+    "add_label": "Ajouter joueur"
+}

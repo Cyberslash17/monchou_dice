@@ -1,0 +1,23 @@
+{
+    "game_title": "Game",
+    "history_title": "History",
+    "settings_title": "Settings",
+    "player": "Player",
+    "round1": "Round 1",
+    "round2": "Round 2",
+    "total": "Total",
+    "winning_one": "The Grand Winner is <bold>{{name}}</bold> with <bold>{{count}} point</bold>.",
+    "winning_other": "The Grand Winner is <bold>{{name}}</bold> with <bold>{{count}} points</bold>.",
+    "reset_game": "Reset Game",
+    "finish_game": "Finish Game",
+    "max_player_setting": "Max number of player",
+    "dark_mode_setting": "Dark Mode",
+    "language_setting": "Language",
+    "id_history": "Id",
+    "player_history": "Player",
+    "score_history": "Score",
+    "date_history": "Date",
+    "start_game": "Start Game",
+    "add_button": "Add",
+    "add_label": "Add Player"
+}
