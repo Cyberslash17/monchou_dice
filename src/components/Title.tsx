@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Typography, { TypographyProps } from '@mui/material/Typography';
+import Typography from '@mui/material/Typography';
 
 import CasinoIcon from '@mui/icons-material/Casino';
 

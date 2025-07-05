@@ -1,4 +1,3 @@
-import React from "react";
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import SettingsIcon from '@mui/icons-material/Settings';
@@ -13,13 +12,13 @@ import { useTranslation } from 'react-i18next';
 
 export default function BottomBar() {
   const [page, setPage] = useRecoilState(pageAtom);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <BottomNavigation
       showLabels
       value={page}
-      onChange={(e, n) => {
+      onChange={(_, n) => {
         setPage(n);
       }}
     >

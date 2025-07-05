@@ -6,13 +6,12 @@ import Title from './Title';
 
 // Mui
 import Box from '@mui/material/Box';
-import MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';
+import MuiAppBar from '@mui/material/AppBar';
 import MuiToolbar from '@mui/material/Toolbar';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Drawer from '@mui/material/Drawer';
-import Divider from '@mui/material/Divider';
 
 import CasinoIcon from '@mui/icons-material/Casino';
 import HistoryIcon from '@mui/icons-material/History';
@@ -28,7 +27,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function AppBar() {
   const [_, setPage] = useRecoilState(pageAtom);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const pages = [
     { name: t('game_title'), path: '/', icon: <CasinoIcon /> },

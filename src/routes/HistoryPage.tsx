@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db, Score } from '../store/db';
 import Table from '@mui/material/Table';

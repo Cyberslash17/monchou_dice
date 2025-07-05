@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import GameStart from './Game/StartGame';
 import Game from './Game/Game';
-import { useRecoilState, useRecoilStateLoadable } from 'recoil';
+import { useRecoilStateLoadable } from 'recoil';
 import { activeGameAtom } from '../store/settingsState';
 
 export default function GamePage() {
